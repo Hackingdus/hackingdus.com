@@ -1,0 +1,94 @@
+/* Styles pour le header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles pour la bannière */
+.banner {
+    background-image: url("https://example.com/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.banner h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.button {
+    font-size: 18px;
+    padding: 20px 40px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Styles pour le contenu */
+.content {
+    padding: 40px;
+}
+
+.content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+.content li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.content li a:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
